@@ -1,0 +1,310 @@
+
+.hero-slider-structure{
+  height: 500px;
+  background-color: #313131;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 10px 25px;
+  justify-content: space-around;
+}
+.hero-slider-1{
+  background-color: rgb(255, 221, 0);
+}
+.hero-slider-2{
+  background-color: pink;
+}
+.hero-slider-3{
+  background-color: rgb(124, 161, 255);
+}
+
+.slider-container .slide-theme {
+  width: 100px !important; /* Or your desired width */
+  /* Add any other custom styles you want to apply */
+  background-color: #f0f0f0; /* Example background color */
+  text-align: center; /* Center align text */
+  padding: 20px; /* Example padding */
+  border-radius: 10px; /* Example border radius */
+}
+
+/* .slide-theme {
+  background: #3a3a3a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #fff;
+  Custom width for each slide
+  width: 350px; Adjust this value to your preference
+  box-sizing: border-box; Ensure padding and border are included in the width
+} */
+
+.icon-background{
+  /* background-image: url('../photos/Product-category-images/fruits.jpeg'); */
+}
+.slick-slide {
+  width: 180px !important;   
+/* background-color: orange ; */
+/* margin: 0 10px; */
+width: auto
+}
+.slick-center{
+  background-color: red;
+}
+.slick-arrow {
+  background-color: rgb(6, 16, 117);
+  border-radius: 50%;
+  top: 30%;
+  z-index: 10;
+}
+.slick-prev{
+  left: -5px;
+}
+
+.slick-next {
+  right: 5px;
+}
+.slick-slide img {
+  display: block;
+  max-width: 130px;
+  border-radius: 5px;
+  max-height: 130px;
+  height: 100%;
+  width: 100%;
+}
+
+.product-category-title{
+  text-align: center;
+  font-weight: 600;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.slider-container{
+  padding: 5px 0px;
+}
+.product-category-section{
+  /* background-color: yellow; */
+  margin: 10px;
+  transition-duration: 0.3s;
+}
+.product-category-section img ,.product-category-section  p{
+  transition-duration: 0.3s;
+}
+.product-category-section:hover{
+  img{
+    scale: 1.1;
+  }
+  p{
+    font-weight: 800;
+    margin-top: 5px;
+    font-size: 17px;
+
+  }
+}
+.slick-dots{
+  bottom: -5px;
+}
+.social-media-icons-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  font-size: 25px;
+}
+.social-media-icons-list a{
+  color: #ffffff;
+}
+.social-media-icons-list li{
+  margin: 0 5px;
+}
+.company-details-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.header-wrapper a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.header-scroller-icons a{
+  text-decoration: none;
+}
+.header-scroller-icons{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.header-scroller-icons li{
+  margin: 0 5px;
+}
+
+.header-scroll {
+  padding: 10px;
+}
+.header-icon-title{
+  color: #313131;
+  font-size: 13px;
+}
+.text-justify{
+  text-align: justify;
+}
+.product-wrapper{
+  border:1px solid #6b6b6b4d;
+  /* border-radius: 23% 0% 0% 23% / 25% 25% 25% 36%; */
+  padding: 0;
+  /* border-radius: 20px 0px 0px 0px; */
+  border-right: 0;
+}
+
+
+.product-image{
+  max-width: 278px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px 0px 0px 0px;
+}
+.product-image img{
+  width: 100%; /* Make the image fill the width of the container */
+  height: 100%; /* Make the image fill the height of the container */
+  scale: 0.9;
+  transition-duration: 0.3s;
+  object-fit: cover; /* Resize the image to maintain its aspect ratio, filling the container */
+}
+.product-title{
+  font-weight: 600;
+}
+.product-title,.product-info,.product-price{
+  padding: 5px;
+}
+.product-info{
+  font-weight: 100;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: 1px;
+}
+
+.products{
+  /* border-top: 1px solid #6b6b6b;  */
+  padding: 10px 0 0;
+}
+.product-wrapper:first-child {
+  /* background-color: yellow; */
+  border-radius: 20px 0px 0px 0px;
+}
+.product-wrapper:nth-child(4) {
+  border-radius: 0px 20px 0px 0px;
+  /* background-color: yellowgreen; */
+  border-right:1px solid #d2d2d2;
+}
+.product-wrapper:nth-child(5){
+  border-radius: 0px 0px 0px 5px;
+}
+.product-wrapper:nth-child(8){
+  border-radius: 0px 0px 5px 0px;
+}
+
+.product-wrapper:last-child{
+  border-right:1px solid #d2d2d2;
+} 
+
+.product-wrapper img:last-child{
+  border-radius: 0px 20px 0px 0px;  
+}
+.product-wrapper:hover{
+  .product-image img{
+    scale: 1.0;
+    /* transform: rotate(15deg); */
+  }
+  .product-title{
+    font-weight: 800;
+  }
+}
+
+.product-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 15px;
+  /* height: 40dvh; */
+  /* padding: 5px; */
+}
+.product-section-link{
+  margin: 0;
+    font-size: 13px;
+    /* color: #c1c1c1; */
+    text-decoration: none;
+    cursor: pointer;
+}
+.discounted-price{
+  margin-bottom: 0;
+  color: #052762;
+  font-weight: 800;
+  font-size: 20px;
+}
+.mrp-price{
+  color: gray;
+    font-weight: 400;
+    font-size: 14px;
+}
+.product-price{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-icon{
+  background-color: #052762;
+  color: white;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.cart-icon:hover{
+  background-color: #184aa2;
+  font-weight: 900;
+}
+.product-categories-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-categories-list li{
+  padding: 10px;
+}
+.product-categories-list a{
+  text-decoration: none;
+  position: relative;
+  color: #000000;
+  transition-duration: 0.3s;
+}
+
+.product-categories-list a::after{
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 3px;
+  border-radius: 1.5px;
+  top: 20px;
+  background-color: currentColor;
+}
+
+.product-categories-list a:hover{
+  color: #052762;
+  font-weight: 800;
+}
